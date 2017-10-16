@@ -24,7 +24,7 @@ public:
 
 	enum FigureType{kFreehand,kLine,kRectangle,kOval,kPolygon};
 	vector<Figure*> figureArray;
-	FigureType figureType=kLine;
+	FigureType figureType=kFreehand;
 
 	void mousePressEvent(QMouseEvent* event);
 	void mouseMoveEvent(QMouseEvent* event);
